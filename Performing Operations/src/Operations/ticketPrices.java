@@ -4,11 +4,13 @@ public class ticketPrices {
 
 	public static void main(String[] args) {
 		// an integer to hold our number
-		int age = 15;
+		int age = -2;
 		boolean isStudent = true;
 		
 		// if statement (condition)
-		if (age >= 8) {
+		if (age < 0) {
+			System.out.println("Invalid Age");
+		} if (age >= 65) {
 			System.out.println("Senior citizen, pay $7");
 		} if (isStudent = true) {
 			System.out.println("Students, pay $8");
@@ -18,7 +20,7 @@ public class ticketPrices {
 			else {
 			System.out.println("Everyone else, pay $10");
 		}
-
-	}
-
+	}	
 }
+	
+
